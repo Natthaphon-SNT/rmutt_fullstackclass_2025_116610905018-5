@@ -61,8 +61,10 @@ CREATE TABLE public.exam_schedules (
   start_time time without time zone NOT NULL,
   end_time time without time zone NOT NULL,
   room_number character varying,
+  schedule_id integer,
   CONSTRAINT exam_schedules_pkey PRIMARY KEY (exam_id),
-  CONSTRAINT exam_schedules_course_id_fkey FOREIGN KEY (course_id) REFERENCES public.courses(course_id)
+  CONSTRAINT exam_schedules_course_id_fkey FOREIGN KEY (course_id) REFERENCES public.courses(course_id),
+  CONSTRAINT exam_schedules_schedule_id_fkey FOREIGN KEY (schedule_id) REFERENCES public.class_schedules(schedule_id)
 );
 CREATE TABLE public.library_records (
   record_id integer NOT NULL DEFAULT nextval('library_records_record_id_seq'::regclass),

@@ -1,5 +1,3 @@
-https://ums-frontend-cyan.vercel.app/
-
 # rmutt_fullstackclass_2025_116610905018-5
 1. นายธนรัตน์ แสนอ่อน 116610905024-3
 2. นายภูมิภัทร อินทร์ปาน 116610905023-5
@@ -17,3 +15,10 @@ https://ums-frontend-cyan.vercel.app/
 - Exams
 - Grades
 - Libraries
+
+----------Publish----------
+https://ums-frontend-cyan.vercel.app/
+============================================
+----------Presentation Slide----------
+https://www.canva.com/design/DAHD2Tl4yGM/pADVs6mrWegp03EmubTsYg/edit?utm_content=DAHD2Tl4yGM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+============================================
